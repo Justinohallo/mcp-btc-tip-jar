@@ -1,0 +1,27 @@
+{
+  "name": "mcp-btc-tip-jar",
+  "version": "1.0.0",
+  "description": "Bitcoin Lightning tip jar MCP server with interactive UI",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "start": "npx tsx server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:21857/git/Justinohallo/mcp-btc-tip-jar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mcp-ui/server": "^6.0.0",
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0"
+  }
+}
