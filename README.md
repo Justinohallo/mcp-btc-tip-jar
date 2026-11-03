@@ -10,7 +10,7 @@ Built as a demo for the Bitcoin Builders Vancouver meetup, to show what agent-na
 |---|---|---|
 | `show_tip_jar` | none | The tip-jar widget with preset and custom amounts |
 | `generate_invoice` | `amount` (sats, positive number, validated with Zod) | An invoice card with the BOLT11 string |
-| `check_payment` | none | The payment status of the current invoice |
+| `check_payment` | none | A paid or pending status card (randomised in this demo) |
 
 ## Two transports
 
